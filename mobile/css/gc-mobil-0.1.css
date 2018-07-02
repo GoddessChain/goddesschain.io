@@ -1,0 +1,32 @@
+body {
+  color: #363636;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.font-blank {
+  color: #000;
+}
+
+.container {
+  padding: 0 12px;
+}
+
+/* header */
+.header{
+  height: 454px;
+  background: url('../image/m-banner.png') no-repeat;
+  background-position-y: -20px;
+  background-size: cover; 
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+}
+
+.logo {
+  width: 98px;
+  height: 20px;
+}
