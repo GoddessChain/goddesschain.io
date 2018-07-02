@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="judge"></div>
     <div class="header">
         <div class="container-header">
             <!-- 响应式导航条 -->
@@ -290,9 +291,12 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
         $(function () {
-            var clientWidth = document.body.clientWidth;
-            if (clientWidth < 750) {
-                $('#header').css('background', 'url("image/m-banner.png") no-repeat');
+            var isMobile;
+            if ($('#judge').css("display") == 'none') {
+                isMobile = true;
+            }
+            if (isMobile) {
+                location.href = 'http://m.goddesschain.io';
             }
         });
     </script>

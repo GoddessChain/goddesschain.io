@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <div id="judge"></div>
   <div class="header">
     <div class="container">
       <div class="header-section">
@@ -243,6 +244,18 @@
       </div>
     </div>
   </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script>
+    $(function () {
+      var isMobile;
+      if ($('#judge').css("display") == 'none') {
+        isMobile = true;
+      }
+      if (isMobile) {
+        location.href = 'http://www.goddesschain.io';
+      }
+    });
+  </script>
 </body>
 
 </html>
