@@ -1,0 +1,98 @@
+body {
+    color: #484848;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.gc-des {
+    padding: 152px 0;
+}
+.gc-des dot {
+    float: left;
+    margin-left: 15px;
+}
+.gc-des .desc {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.gc-composition {
+    background: #f4f4f4;
+    padding: 152px 0;
+}
+.gc-advantage {
+    padding: 152px 0;
+    background: #757575;
+    color: #fff;
+}
+.gc-scenario {
+    padding: 152px 0;
+    text-align: center;
+}
+.gc-scenario h2 {
+    margin-bottom: 0;
+}
+.gc-scenario .subtitle {
+    font-size: 21px;
+    margin-bottom: 130px;
+}
+.gc-scenario .desc {
+    font-size: 28px;
+    margin-top: 36px;
+}
+.gc-wallet {
+    text-align: center;
+    background: #e5e5e5;
+    padding: 93px 0;
+}
+.gc-wallet h2 {
+    margin-top: 217px;
+    margin-bottom: 32px;
+}
+.gc-wallet .desc {
+    font-size: 18px;
+    color: #484848;
+    line-height: 2;
+}
+.gc-paper {
+    padding: 152px 0;
+    text-align: center;
+}
+.footer {
+    background: #363636;
+    color: #fff;
+    text-align: center;
+    padding: 88px 0;
+}
+.footer a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    display: block;
+    padding-left: 32px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+.footer a.telegram {
+    background-image: url('../image/telegram.png')    
+}
+.footer a.twitter {
+    background-image: url('../image/twitter.png')
+}
+.footer a.facebook {
+    background-image: url('../image/facebook.png')
+}
+.footer a.weibo {
+    background-image: url('../image/weibo.png')
+}
+.footer a.github {
+    background-image: url('../image/github.png')
+}
+.footer .copy {
+    margin-top: 108px;
+}
