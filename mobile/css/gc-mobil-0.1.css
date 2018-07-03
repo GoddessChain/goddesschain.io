@@ -105,7 +105,7 @@ p {
 /* 女神链组成 */
 
 .goddess-chain-constitute {
-  background: #f4f4f4;
+  background: #E5E5E5;
 }
 
 .gc-constitute-item:not(:last-child) {
@@ -215,11 +215,14 @@ p {
 }
 
 .gcb-download {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   width: 107px;
   height: 29px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #363636;
   margin: auto;
   margin-top: 16px;
   border: 1px solid #F54444;
