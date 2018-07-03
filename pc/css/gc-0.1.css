@@ -1,5 +1,5 @@
 @media (max-width:768px) {
-  #judge{
+  #judge {
     display: none;
   }
 }
@@ -26,21 +26,32 @@ body {
 
 .container-header {
   width: 1660px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1660px) {
+  .container-header {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 1400px) {
   .container {
     width: 1400px;
+    margin: 0 auto;
   }
 }
 
 /* header */
 
 .header {
-  height: 992px;
-  padding-top: 55px;
-  background: url('../image/banner.png') no-repeat;
+  padding-top: 2%;
+  background: #363636;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .navbar-default {
@@ -81,6 +92,7 @@ body {
 .logo-img {
   width: 196px;
   height: 40px;
+  margin-left: 4%;
 }
 
 .language-box {
@@ -99,14 +111,49 @@ body {
   align-items: baseline;
 }
 
+/* banner */
+
+.banner {
+  color: #fff;
+  background: #363636;
+}
+.banner-left{
+  margin-left: -8%;
+}
+.banner h1{
+  margin: 5% 0;
+  font-size: 50px;
+  font-weight: 100;
+}
+@media (min-width: 992px) and (max-width:1200px){
+  .banner h1{
+    margin: 5% 0;
+    font-size: 38px;
+    font-weight: 100;
+  }
+  .banner h3{
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width:992px){
+  .banner h1{
+    margin: 5% 0;
+    font-size: 28px;
+    font-weight: 100;
+  }
+  .banner h3{
+    font-size: 16px;
+  }
+}
+.banner-logo {
+  width: 68%;
+  margin-top:34%; 
+}
 .goddess-wallet {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 162px;
-  height: 51px;
-  margin-left: 1058px;
-  margin-top: 610px;
+  width: 30%;
+  text-align: center;
+  margin-top: 10%;
+  padding: 2.3% 0;
   color: #fff;
   border: 1px solid #CC3946;
 }
@@ -118,7 +165,7 @@ h2 {
 }
 
 .gc-des {
-  padding: 152px;
+  padding: 152px 0;
 }
 
 .gc-des .des-item {
@@ -134,6 +181,8 @@ h2 {
   font-size: 14px;
   line-height: 1.5;
 }
+
+/* composition */
 
 .gc-composition {
   background: #f4f4f4;
@@ -225,7 +274,7 @@ h2 {
 }
 
 .gc-paper .btn-default {
-    color:#484848;
+  color: #484848;
   border-color: #F54444;
 }
 
@@ -241,11 +290,12 @@ h2 {
   padding: 88px 0 104px;
 }
 
-.footer-link{
-    display: flex;
-    justify-content: space-around;
-    padding: 0 270px;
+.footer-link {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 270px;
 }
+
 .footer a {
   color: #fff;
   font-size: 12px;
